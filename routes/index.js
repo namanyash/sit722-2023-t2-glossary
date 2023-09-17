@@ -259,6 +259,14 @@ const glossary = [
     ],
   },
   {
+    Term: "RabbitMQ",
+    Description:
+      "RabbitMQ is an open source message broker that implements the AMQP protocol. It can be used to enables direct/indirect communication between distributed applications.",
+    References: [
+      "www.cloudamqp.com. (n.d.). Part 1: RabbitMQ for beginners - What is RabbitMQ? - CloudAMQP. [online] Available at: https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html.",
+    ],
+  },
+  {
     Term: "Azure CLI",
     Description:
       "Azure CLI is a command-line interface tool for managing Azure resources. It provides commands for interacting with Azure services such as Azure Kubernetes Service, Virtual Machines and other Azure cloud resources.",
@@ -310,15 +318,16 @@ const glossary = [
     Description:
       "Azure Container Registry is the managed container registry service on Azure cloud platoform. We can use ACR to mtore and manage container images for all types of deployments.",
     References: [
-      "Bisson, S. (2020). Understanding Azure Container Registry. [online] InfoWorld. Available at: https://www.infoworld.com/article/3514575/understanding-azure-container-registry.html [Accessed 17 Sep. 2023].",
+      "Bisson, S. (2020). Understanding Azure Container Registry. [online] InfoWorld. Available at: https://www.infoworld.com/article/3514575/understanding-azure-container-registry.html.",
     ],
   },
   {
-    Term: "Terraform Resource Graph",
+    Term: "Pod",
     Description:
-      "It iss a terraform functionality that allows us to visualize dependencies between resources defined in configuration.",
+      "A pod is the smallest deployable unit in Kubernetes. It encapsulates one or more containers representing an application.",
     References: [
-      "HashiCorp (2022) Resource Graph. https://www.terraform.io/docs/cli/commands/graph.html",
+      "IT Operations. (n.d.). What is Kubernetes pod? | Definition from TechTarget. [online] Available at: https://www.techtarget.com/searchitoperations/definition/Kubernetes-Pod",
+      "Kubernetes (2022) Pods. https://kubernetes.io/docs/concepts/workloads/pods/",
     ],
   },
   {
@@ -344,6 +353,71 @@ const glossary = [
     References: [
       "Kubernetes (2022) Web UI (Dashboard). https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/",
       "VMware (2022) Kubernetes Dashboard. https://www.vmware.com/topics/glossary/content/kubernetes-dashboard.html",
+    ],
+  },
+  {
+    Term: "ReplicaSet",
+    Description:
+      "A ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas are always running at any given time. It helps provide high availability.",
+    References: [
+      "Kubernetes (2022) ReplicaSet. https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/",
+    ],
+  },
+  {
+    Term: "Code Coverage",
+    Description:
+      "Code coverage is a measure used to describe the degree to which code is tested by tests. It is represented as the percentage of code executed during test runs.",
+    References: [
+      "Pittet, S. (n.d.). Introduction to Code Coverage. [online] Atlassian. Available at: https://www.atlassian.com/continuous-delivery/software-testing/code-coverage.",
+    ],
+  },
+  {
+    Term: "StatefulSet",
+    Description:
+      "A StatefulSet is a Kubernetes controller providing stateful pods with persistent storage. It can be used to manage deployment and scaling of stateful applications.",
+    References: [
+      "Kubernetes (2022) StatefulSets. https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/",
+    ],
+  },
+  {
+    Term: "Terraform Resource Graph",
+    Description:
+      "It iss a terraform functionality that allows us to visualize dependencies between resources defined in configuration.",
+    References: [
+      "HashiCorp (2022) Resource Graph. https://www.terraform.io/docs/cli/commands/graph.html",
+    ],
+  },
+  {
+    Term: "Smoke Testing",
+    Description:
+      "Smoke testing is a software testing technique to check critical functions work. They are preliminary tests to reveal simple failures before further testing.",
+    References: [
+      "SearchSoftwareQuality. (n.d.). What is smoke testing? - Definition from WhatIs.com. [online] Available at: https://www.techtarget.com/searchsoftwarequality/definition/smoke-testing.",
+    ],
+  },
+  {
+    Term: "Cluster CA Certificate",
+    Description:
+      "CA Certificate is a digital certificate that provides trusted secure communication (using TLS) for the Kubernetes API server. It is used to secure cluster communication.",
+    References: [
+      "docs.giantswarm.io. (n.d.). Accepting your cluster’s CA certificate – Giant Swarm Documentation. [online] Available at: https://docs.giantswarm.io/getting-started/ca-certificate/",
+    ],
+  },
+  {
+    Term: "Test Driven Development (TDD)",
+    Description:
+      "Test driven development (TDD) is a software development process relying on short cycles driven by writing tests first. It focuses on software design and testing.",
+    References: [
+      "Unadkat, J. (2021). Test Driven Development (TDD) : Approach & Benefits. [online] BrowserStack. Available at: https://www.browserstack.com/guide/what-is-test-driven-development. ‌",
+    ],
+  },
+  {
+    Term: "Bitbucket Pipelines",
+    Description:
+      "Bitbucket Pipelines is a CI/CD service built into Bitbucket for automating software delivery. It allows creating pipelines to build, test, and deploy code.",
+    References: [
+      "Atlassian (2022) Bitbucket Pipelines. https://www.atlassian.com/software/bitbucket/features/pipelines",
+      "Huang, S. (2022). How to do CI/CD in BitBucket Pipeline. [online] CodeX. Available at: https://medium.com/codex/how-to-do-ci-cd-in-bitbucket-pipeline-f6d96d5fa48b",
     ],
   },
 ];
