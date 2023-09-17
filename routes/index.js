@@ -258,6 +258,94 @@ const glossary = [
       "AWS (2022) Where's My Secret Access Key? AWS Security Blog. https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/",
     ],
   },
+  {
+    Term: "Azure CLI",
+    Description:
+      "Azure CLI is a command-line interface tool for managing Azure resources. It provides commands for interacting with Azure services such as Azure Kubernetes Service, Virtual Machines and other Azure cloud resources.",
+    References: [
+      "Microsoft (2022) Azure CLI. https://docs.microsoft.com/en-us/cli/azure/",
+    ],
+  },
+  {
+    Term: "Infrastructure as Code",
+    Description:
+      "Infrastructure as Code, also known as IaC or IaaC is the approach of managing and provisioning infrastructure through code instead of manual processes. IaC allows infrastructure to be versioned, tested, and deployed consistently.",
+    References: [
+      "Red Hat (2021) What is infrastructure as code? https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac",
+      "Microsoft (2022) What is Infrastructure as Code? https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code",
+    ],
+  },
+  {
+    Term: "Managed Kubernetes",
+    Description:
+      'The term "Managed Kubernetes" is used to represent managed Kubernetes services offered by cloud providers like EKS for AWS, AKS for Azure etc. Having a manager kubernetes removes burden of managing and maintaining Kubernetes clusters.',
+    References: ["AWS (2022) Amazon EKS. https://aws.amazon.com/eks/"],
+  },
+  {
+    Term: "Azure Kubernetes Service (AKS)",
+    Description:
+      "AKS is the managed Kubernetes service offered by Microsoft Azure. It allows deploying and managing containerized applications on Kubernetes clusters.",
+    References: [
+      "Microsoft (2022) Azure Kubernetes Service. https://azure.microsoft.com/en-us/services/kubernetes-service/",
+    ],
+  },
+  {
+    Term: "HashiCorp Configuration Language (HCL)",
+    Description:
+      "HCL is a domain-specific language used to define IaaC configuration files in HashiCorp tools like Terraform.",
+    References: [
+      "Octopus Deploy (n.d.). Introduction to HCL and HCL tooling. [online] Octopus Deploy. Available at: https://octopus.com/blog/introduction-to-hcl-and-hcl-tooling.",
+    ],
+  },
+  {
+    Term: "Provider Plugins",
+    Description:
+      "Plugins for Terraform (or other IaC services) that allow it to interact with cloud providers, SaaS providers, etc. They can be used to extend Terraform's core functionality.",
+    References: [
+      "HashiCorp (2022) Providers. https://www.terraform.io/docs/providers/index.html",
+    ],
+  },
+  {
+    Term: "Azure Container Registry",
+    Description:
+      "Azure Container Registry is the managed container registry service on Azure cloud platoform. We can use ACR to mtore and manage container images for all types of deployments.",
+    References: [
+      "Bisson, S. (2020). Understanding Azure Container Registry. [online] InfoWorld. Available at: https://www.infoworld.com/article/3514575/understanding-azure-container-registry.html [Accessed 17 Sep. 2023].",
+    ],
+  },
+  {
+    Term: "Terraform Resource Graph",
+    Description:
+      "It iss a terraform functionality that allows us to visualize dependencies between resources defined in configuration.",
+    References: [
+      "HashiCorp (2022) Resource Graph. https://www.terraform.io/docs/cli/commands/graph.html",
+    ],
+  },
+  {
+    Term: "Kubernetes Cluster",
+    Description:
+      "A Kubernetes cluster is a group of nodes running Kubernetes used to run containerized applications. In a Kubernetes Cluster a master node controls and manages worker nodes which are used of running apps.",
+    References: [
+      "VMware (2022) What is a Kubernetes cluster? https://www.vmware.com/topics/glossary/content/kubernetes-cluster.html",
+    ],
+  },
+  {
+    Term: "Kubernetes CLI (Kubectl)",
+    Description:
+      "Kubectl is a command line tool for interacting with Kubernetes clusters. Kubectl can be used to deploy, manage, and monitor containerized applications.",
+    References: [
+      "Kubernetes (2022) Overview of kubectl. https://kubernetes.io/docs/reference/kubectl/overview/",
+    ],
+  },
+  {
+    Term: "Kubernetes Dashboard",
+    Description:
+      "Kubernets dashboard is a web-based UI tool for managing Kubernetes clusters. We can use Kuebernetes dashboards to do similar tasks as Kubectl but from the UI.",
+    References: [
+      "Kubernetes (2022) Web UI (Dashboard). https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/",
+      "VMware (2022) Kubernetes Dashboard. https://www.vmware.com/topics/glossary/content/kubernetes-dashboard.html",
+    ],
+  },
 ];
 
 /* GET home page. */
